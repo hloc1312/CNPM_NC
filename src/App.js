@@ -2,18 +2,18 @@ import './App.css';
 import React from 'react';
 import Header from './components/common/Header';
 import Navigation from './components/common/Navigation';
-import Slider from './components/common/Slider';
-import Search from './components/common/Search';
-import {Switch,Route} from 'react-router-dom'
+import listVoucher from './components/Page/listVoucher';
+import  ManagerVoucher from './components/common/ManagerVoucher';
+import Detail from './components/common/Detail'
+import {Switch,Route, Router} from 'react-router-dom'
 function App() {
   return (
     <div>
         <Header/>
-        <Navigation/>
-        <Slider/>
-        <Search/>
+        <Navigation/> 
         <Switch>
-            <Route path='/header' component={Search} exact/>    
+            <Route path='/detail' component={Detail}/>
+            <Route path='/' component={listVoucher} exact />    
         </Switch>
 
         <div style={{height:'1000px'}}></div>
