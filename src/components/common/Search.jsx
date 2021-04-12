@@ -107,7 +107,7 @@ export default function Search() {
             <div className="form-right">
                 <div className="form-item">
                     <div className="form-item-label"> 
-                    <a href="">Khách Sạn Xem Gần Đây</a></div>
+                    <a href="1">Khách Sạn Xem Gần Đây</a></div>
                     <div className="form-item-input"></div>
                 </div>
                 <div className="form-item">

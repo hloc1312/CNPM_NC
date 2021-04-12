@@ -42,8 +42,9 @@ export default function Detail() {
                         
                     </div>   
                     <div className="one">
-                        
-                        <button type="button">Mua</button>
+                        <form action="/payment">
+                            <button type="submit" >Mua</button>
+                        </form>
                     </div>   
                 </div>
                 
